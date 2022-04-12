@@ -1,0 +1,82 @@
+@media screen and (min-width:600px){
+   #tanjuro{
+       width: 100px;
+       height: 100px;
+   }
+}
+@media screen and(max-width :600px){
+    #tanjuro{
+        width: 30px;
+        height: 30px;
+    }
+}
+#div1{
+        
+        width: 100px;
+        height: 100px;  }
+@media screen and (min-width:600px){
+    #div1{
+    background-color: blue;
+    }
+  
+}
+@media screen and (max-width:600px) {
+    #div1{
+    background-color: red;}
+}
+#div2{
+    width: 20vw;
+    height: 20vh;
+    color: white;}
+
+
+@media screen and (min-width:600px) {
+    #div2{
+        background-color: green;
+
+    }
+}
+@media screen and (max-width:600px){
+    #div2{
+        
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width:600px) {
+    #div3{
+        background-image: url('mountain-1.jpg') ;
+    }
+}
+@media screen and (max-width:600px) {
+    #div3{
+        background-image: url('forest-1.jpg') ;
+    }
+}
+#div4{
+    width: 20vw;
+    height: 20vh;
+    background-color: blue;
+}
+@media screen and (min-width:600px) {
+   #div4{
+    width: 15vw;
+    height: 20vh;
+    border-radius:50%;
+}
+}
+@media screen and (max-width:600px) {
+    #div4{
+    border-radius: 0;
+    }
+}
+@media screen and (min-width:600px) {
+    #div5{
+        filter: blur(500%);
+    }
+}
+@media screen and (max-width:600px) {
+    #div5{
+        filter: grayscale(100%);
+    }
+}
